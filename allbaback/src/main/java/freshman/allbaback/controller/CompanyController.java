@@ -39,8 +39,8 @@ public class CompanyController {
     }
 
     @PutMapping("/{companyName}/{pid}/join")
-    public void joinCompany() {
-        
+    public void joinCompany(@PathVariable String companyName, @PathVariable String pid) {
+
     }
 
 }
